@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>web</title>
-            <h1> Premalu</h1>
+        <title>Bookmytickets</title>
+            <h1 id="title1">TICKET BOOKING</h1>
+            <style>
+                #title1{
+                    text-align:center;
+                    color:red;
+                    font-size: 50px;
+    
+                }
+            </style>
+            <style>
+                      .form1{
+                      border: 2px solid black;
+                      background-color: aqua;
+                      color:black;
+                }
+            </style>
+            <style>
+                th,td{
+                    border:1px solid black;
+                }
+            </style>
     </head>
     <body>
-        <img src="C:\Users\WELCOME\Downloads\premalu.jpeg" alt="SEE aavesham" width="300" height="300">
-         <h2> premalu</h2>
-            <p>Premalu is a 2024 Indian Malayalam-language romantic comedy film directed by Girish A. D. 
-                and produced by Bhavana Studios, in the company of Fahadh Faasil and Friends and Working Class Hero. </p>
-                <h3>CAST</h3>
-                    <ul>
-                       <li>mamitha baiju</li>
-                       <li>nithish</li>
-                        <li>sriram</li>
-                    </ul>
-                <h3>BUDJET</h3>
-                   <text>9 crore</text><br><br>
-                   <text>CLICK THE BELOW LINK TO WATCH</text><br>
+        <h2 style="text-align:center;">WELCOME TO MY SITE</h2>
+        <p>
+            Nithish's ticket booking website is a testament to the power of creativity and technology harmoniously intertwined. Leveraging the robust capabilities of HTML and CSS, Nithish crafted an online platform that seamlessly melded form and function, delighting users with its intuitive design and smooth user experience.
+            At first glance, visitors to Nithish's site are greeted by a sleek and modern homepage, adorned with vibrant images and concise yet enticing event previews. Through the skillful use of HTML markup, each element is carefully structured and organized, ensuring clarity and ease of navigation for users of all backgrounds.
+        </p>
+        <img src="C:\Users\WELCOME\OneDrive\Desktop\FRONTEND\BB ONLINE.png" height="200px" width="200px">
+        <div class="form1">
+             <form>
+                 <label for="Username">Username</label>
+                 <input type="text" id="Username" name="Username"><br><br>
+                 <label for="password">Password</label>
+                 <input type="password" id="password" name="password"><br><br>
+                 <input type="submit" value="sumbit">
+            </form>
+        </div>
+                <h3>FEAUTRES</h3>
+                    <ol>
+                       <li>Book ticke</li>
+                       <li>Rate movies</li>
+                        <li>Recent movie info</li>
+                    </ol>
+                   <text>CLICK THE BELOW LINK TO WATCH OTT</text><br>
                 <a href ="https://www.hotstar.com/in/movies/premalu/1271295279"  >WATCH NOW</a><br><br>
+                <div class="drop">
                 <label for="WRITE review"> WRITE REVIEW:</label>
                 <select>
                     <option>BAD</option>
                     <option>GOOD</option>
                     <option >AVERAGE</option>
                 </select> 
+                </div>
                 <h3>quiz</h3>
                 <input type="radio" id="rate good" name="quiz" value="GOOD">
                 <label for ="rate good">RATE GOOD</label><br>
@@ -32,33 +63,30 @@
                 <label for ="rate bad">RATE BAD</label><br>
                 <input type="radio" id="rate average" name="quiz" value="average">
                 <label for ="rate average">RATE AVERAGE</label><br><br><br>
-                <table>
-                    <style>
-                        th, td {
-                          border:1px solid black;
-                          background-color: black;
-                          color: white;
-                        }
-                        </style>
-                    <tr>
+                <table style="border:1px solid black;">
                         <th>MOVIE POSTER</th>
                         <th>MOVIE NAME</th>
                         <th>RATING</th>
+                        <th>BOOK NOW</th>
                     </tr>
                     <tr>
                         <td> <img src="C:\Users\WELCOME\OneDrive\Desktop\FRONTEND\Manjummel-Boys-Poster.jpg" height="50px" width="50px"></td>
                         <td> manjummel boys</td>
                         <td>8.5</td>
+                        <td><input type="submit" value="sumbit"></td>
                     </tr>
                     <tr>
                         <td> <img src="C:\Users\WELCOME\OneDrive\Desktop\FRONTEND\avesham-1712894255407.jpg" height="50px" width="50px"></td>
                         <td> avesham</td>
                         <td>9</td>
+                        <td><input type="submit" value="sumbit"></td>
+                        
                     </tr>
                     <tr>
                         <td> <img src="C:\Users\WELCOME\OneDrive\Desktop\FRONTEND\premalupic.jpg" height="50px" width="50px"></td>
                         <td> premalu</td>
                         <td>10</td>
+                        <td><input type="submit" value="sumbit"></td>
                     </tr>
                 </table>
             </div>
